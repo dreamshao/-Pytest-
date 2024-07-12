@@ -1,0 +1,161 @@
+{
+  "uid" : "85faa846c03ad720",
+  "name" : "test_match_detail_list[3-https://test.matchplay.com/api/sports-query/match/detail/base/{eventid}-get-{\r\n    \"Content-Type\": \"application/json\",\r\n    \"platform\": \"wap\",\r\n    \"Deviceid\": \"034a2171-d5bb-4ad0-a946-2db37c9203fb\",\r\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36\"\r\n}-None-None-None-{\"$.bizCode\": 10000, \"$.innerMsg\": \"success\"}-\"{\\\"bizCode\\\":10000,\\\"innerMsg\\\":\\\"success\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":{\\\"group\\\":null,\\\"showBettingInsights\\\":1,\\\"homeCompetitor\\\":\\\"Spain\\\",\\\"awayCompetitor\\\":\\\"France\\\",\\\"tips\\\":null,\\\"basketballCategory\\\":null,\\\"competitionRules\\\":2,\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"userSubscribed\\\":1,\\\"categoryLogo\\\":\\\"https://www.matchplay.com/static/manage-sport/98d8bb5d-bc6b-42e4-a7ce-b9f72aaabdbb.png\\\",\\\"category\\\":\\\"International\\\",\\\"categoryId\\\":\\\"sr:category:4\\\",\\\"tournamentId\\\":\\\"sr:tournament:1\\\",\\\"tournament\\\":\\\"UEFA Euro\\\",\\\"eventId\\\":\\\"sr:match:45843701\\\",\\\"status\\\":4,\\\"markets\\\":[],\\\"homeCompetitorLogo\\\":\\\"https://www.matchplay.com/static/competitor/4698.png\\\",\\\"awayCompetitorLogo\\\":\\\"https://www.matchplay.com/static/competitor/4481.png\\\",\\\"homeCompetitorId\\\":\\\"sr:competitor:4698\\\",\\\"awayCompetitorId\\\":\\\"sr:competitor:4481\\\",\\\"startTime\\\":1720551600000,\\\"homeResult\\\":1,\\\"awayResult\\\":2,\\\"ap\\\":null,\\\"aet\\\":null,\\\"homeCurrentPeriodScore\\\":null,\\\"awayCurrentPeriodScore\\\":null,\\\"homeScoreInCurrentSection\\\":null,\\\"awayScoreInCurrentSection\\\":null,\\\"currentServer\\\":null,\\\"homeScoreWholeMatch\\\":\\\"2\\\",\\\"awayScoreWholeMatch\\\":\\\"1\\\",\\\"halfScore\\\":\\\"2:1\\\",\\\"remainTimeOfCurrentPeriod\\\":null,\\\"remainTime\\\":null,\\\"eventTime\\\":null,\\\"matchStatus\\\":\\\"FT\\\",\\\"seasonName\\\":\\\"UEFA Euro 2024\\\",\\\"surface\\\":null,\\\"groupLongName\\\":null,\\\"homeCompetitors\\\":{\\\"subCompetitors\\\":null,\\\"name\\\":\\\"Spain\\\",\\\"id\\\":\\\"sr:competitor:4698\\\",\\\"country\\\":\\\"Spain\\\",\\\"abbrev\\\":\\\"ESP\\\",\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"logo\\\":\\\"https://www.matchplay.com/static/competitor/4698.png\\\",\\\"homeJerseyBaseColor\\\":\\\"f94046\\\",\\\"homeJerseyNumberColor\\\":\\\"fddc30\\\",\\\"favorite\\\":0},\\\"awayCompetitors\\\":{\\\"subCompetitors\\\":null,\\\"name\\\":\\\"France\\\",\\\"id\\\":\\\"sr:competitor:4481\\\",\\\"country\\\":\\\"France\\\",\\\"abbrev\\\":\\\"FRA\\\",\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"logo\\\":\\\"https://www.matchplay.com/static/competitor/4481.png\\\",\\\"homeJerseyBaseColor\\\":\\\"1a55bd\\\",\\\"homeJerseyNumberColor\\\":\\\"ffffff\\\",\\\"favorite\\\":0},\\\"tournamentLogo\\\":null,\\\"sportLogo\\\":\\\"https://www.matchplay.com/static/notifications/sports_icon/Football%402x.png\\\",\\\"sport\\\":\\\"Football\\\"}}\"-详细比赛信息]",
+  "fullName" : "TestCases.test_match_list.Test_Match_list#test_match_detail_list[3-https://test.matchplay.com/api/sports-query/match/detail/base/{eventid}-get-{\r\n    \"Content-Type\": \"application/json\",\r\n    \"platform\": \"wap\",\r\n    \"Deviceid\": \"034a2171-d5bb-4ad0-a946-2db37c9203fb\",\r\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36\"\r\n}-None-None-None-{\"$.bizCode\": 10000, \"$.innerMsg\": \"success\"}-\"{\\\"bizCode\\\":10000,\\\"innerMsg\\\":\\\"success\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":{\\\"group\\\":null,\\\"showBettingInsights\\\":1,\\\"homeCompetitor\\\":\\\"Spain\\\",\\\"awayCompetitor\\\":\\\"France\\\",\\\"tips\\\":null,\\\"basketballCategory\\\":null,\\\"competitionRules\\\":2,\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"userSubscribed\\\":1,\\\"categoryLogo\\\":\\\"https://www.matchplay.com/static/manage-sport/98d8bb5d-bc6b-42e4-a7ce-b9f72aaabdbb.png\\\",\\\"category\\\":\\\"International\\\",\\\"categoryId\\\":\\\"sr:category:4\\\",\\\"tournamentId\\\":\\\"sr:tournament:1\\\",\\\"tournament\\\":\\\"UEFA Euro\\\",\\\"eventId\\\":\\\"sr:match:45843701\\\",\\\"status\\\":4,\\\"markets\\\":",
+  "historyId" : "57e4c5653c255d8156ca472a238b585e",
+  "time" : {
+    "start" : 1720770791283,
+    "stop" : 1720770792429,
+    "duration" : 1146
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1720770791279,
+      "stop" : 1720770791280,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "比赛详情页面，采用全局变量",
+      "time" : {
+        "start" : 1720770791284,
+        "stop" : 1720770792429,
+        "duration" : 1145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "3"
+      }, {
+        "name" : "url",
+        "value" : "'https://test.matchplay.com/api/sports-query/match/detail/base/{eventid}'"
+      }, {
+        "name" : "method",
+        "value" : "'get'"
+      }, {
+        "name" : "headers",
+        "value" : "'{\r\n    \"Content-Type\": \"application/json\",\r\n    \"platform\": \"wap\",\r\n    \"Deviceid\": \"034a2171-d5bb-4ad0-a946-2db37c9203fb\",\r\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36\"\r\n}'"
+      }, {
+        "name" : "request_data",
+        "value" : "None"
+      }, {
+        "name" : "params",
+        "value" : "None"
+      }, {
+        "name" : "json",
+        "value" : "None"
+      }, {
+        "name" : "assert_jsonpath",
+        "value" : "'{\"$.bizCode\": 10000, \"$.innerMsg\": \"success\"}'"
+      }, {
+        "name" : "response_body",
+        "value" : "'\"{\\\"bizCode\\\":10000,\\\"innerMsg\\\":\\\"success\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":{\\\"group\\\":null,\\\"showBettingInsights\\\":1,\\\"homeCompetitor\\\":\\\"Spain\\\",\\\"awayCompetitor\\\":\\\"France\\\",\\\"tips\\\":null,\\\"basketballCategory\\\":null,\\\"competitionRules\\\":2,\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"userSubscribed\\\":1,\\\"categoryLogo\\\":\\\"https://www.matchplay.com/static/manage-sport/98d8bb5d-bc6b-42e4-a7ce-b9f72aaabdbb.png\\\",\\\"category\\\":\\\"International\\\",\\\"categoryId\\\":\\\"sr:category:4\\\",\\\"tournamentId\\\":\\\"sr:tournament:1\\\",\\\"tournament\\\":\\\"UEFA Euro\\\",\\\"eventId\\\":\\\"sr:match:45843701\\\",\\\"status\\\":4,\\\"markets\\\":[],\\\"homeCompetitorLogo\\\":\\\"https://www.matchplay.com/static/competitor/4698.png\\\",\\\"awayCompetitorLogo\\\":\\\"https://www.matchplay.com/static/competitor/4481.png\\\",\\\"homeCompetitorId\\\":\\\"sr:competitor:4698\\\",\\\"awayCompetitorId\\\":\\\"sr:competitor:4481\\\",\\\"startTime\\\":1720551600000,\\\"homeResult\\\":1,\\\"awayResult\\\":2,\\\"ap\\\":null,\\\"aet\\\":null,\\\"homeCurrentPeriodScore\\\":null,\\\"awayCurrentPeriodScore\\\":null,\\\"homeScoreInCurrentSection\\\":null,\\\"awayScoreInCurrentSection\\\":null,\\\"currentServer\\\":null,\\\"homeScoreWholeMatch\\\":\\\"2\\\",\\\"awayScoreWholeMatch\\\":\\\"1\\\",\\\"halfScore\\\":\\\"2:1\\\",\\\"remainTimeOfCurrentPeriod\\\":null,\\\"remainTime\\\":null,\\\"eventTime\\\":null,\\\"matchStatus\\\":\\\"FT\\\",\\\"seasonName\\\":\\\"UEFA Euro 2024\\\",\\\"surface\\\":null,\\\"groupLongName\\\":null,\\\"homeCompetitors\\\":{\\\"subCompetitors\\\":null,\\\"name\\\":\\\"Spain\\\",\\\"id\\\":\\\"sr:competitor:4698\\\",\\\"country\\\":\\\"Spain\\\",\\\"abbrev\\\":\\\"ESP\\\",\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"logo\\\":\\\"https://www.matchplay.com/static/competitor/4698.png\\\",\\\"homeJerseyBaseColor\\\":\\\"f94046\\\",\\\"homeJerseyNumberColor\\\":\\\"fddc30\\\",\\\"favorite\\\":0},\\\"awayCompetitors\\\":{\\\"subCompetitors\\\":null,\\\"name\\\":\\\"France\\\",\\\"id\\\":\\\"sr:competitor:4481\\\",\\\"country\\\":\\\"France\\\",\\\"abbrev\\\":\\\"FRA\\\",\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"logo\\\":\\\"https://www.matchplay.com/static/competitor/4481.png\\\",\\\"homeJerseyBaseColor\\\":\\\"1a55bd\\\",\\\"homeJerseyNumberColor\\\":\\\"ffffff\\\",\\\"favorite\\\":0},\\\"tournamentLogo\\\":null,\\\"sportLogo\\\":\\\"https://www.matchplay.com/static/notifications/sports_icon/Football%402x.png\\\",\\\"sport\\\":\\\"Football\\\"}}\"'"
+      }, {
+        "name" : "remarks",
+        "value" : "'详细比赛信息'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c8fdd319bad92a0",
+      "name" : "log",
+      "source" : "c8fdd319bad92a0.txt",
+      "type" : "text/plain",
+      "size" : 10507
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_match_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Match_list"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MG8UHQ0"
+  }, {
+    "name" : "thread",
+    "value" : "12424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_match_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_jsonpath",
+    "value" : "'{\"$.bizCode\": 10000, \"$.innerMsg\": \"success\"}'"
+  }, {
+    "name" : "headers",
+    "value" : "'{\r\n    \"Content-Type\": \"application/json\",\r\n    \"platform\": \"wap\",\r\n    \"Deviceid\": \"034a2171-d5bb-4ad0-a946-2db37c9203fb\",\r\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36\"\r\n}'"
+  }, {
+    "name" : "id",
+    "value" : "3"
+  }, {
+    "name" : "json",
+    "value" : "None"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "None"
+  }, {
+    "name" : "remarks",
+    "value" : "'详细比赛信息'"
+  }, {
+    "name" : "request_data",
+    "value" : "None"
+  }, {
+    "name" : "response_body",
+    "value" : "'\"{\\\"bizCode\\\":10000,\\\"innerMsg\\\":\\\"success\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":{\\\"group\\\":null,\\\"showBettingInsights\\\":1,\\\"homeCompetitor\\\":\\\"Spain\\\",\\\"awayCompetitor\\\":\\\"France\\\",\\\"tips\\\":null,\\\"basketballCategory\\\":null,\\\"competitionRules\\\":2,\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"userSubscribed\\\":1,\\\"categoryLogo\\\":\\\"https://www.matchplay.com/static/manage-sport/98d8bb5d-bc6b-42e4-a7ce-b9f72aaabdbb.png\\\",\\\"category\\\":\\\"International\\\",\\\"categoryId\\\":\\\"sr:category:4\\\",\\\"tournamentId\\\":\\\"sr:tournament:1\\\",\\\"tournament\\\":\\\"UEFA Euro\\\",\\\"eventId\\\":\\\"sr:match:45843701\\\",\\\"status\\\":4,\\\"markets\\\":[],\\\"homeCompetitorLogo\\\":\\\"https://www.matchplay.com/static/competitor/4698.png\\\",\\\"awayCompetitorLogo\\\":\\\"https://www.matchplay.com/static/competitor/4481.png\\\",\\\"homeCompetitorId\\\":\\\"sr:competitor:4698\\\",\\\"awayCompetitorId\\\":\\\"sr:competitor:4481\\\",\\\"startTime\\\":1720551600000,\\\"homeResult\\\":1,\\\"awayResult\\\":2,\\\"ap\\\":null,\\\"aet\\\":null,\\\"homeCurrentPeriodScore\\\":null,\\\"awayCurrentPeriodScore\\\":null,\\\"homeScoreInCurrentSection\\\":null,\\\"awayScoreInCurrentSection\\\":null,\\\"currentServer\\\":null,\\\"homeScoreWholeMatch\\\":\\\"2\\\",\\\"awayScoreWholeMatch\\\":\\\"1\\\",\\\"halfScore\\\":\\\"2:1\\\",\\\"remainTimeOfCurrentPeriod\\\":null,\\\"remainTime\\\":null,\\\"eventTime\\\":null,\\\"matchStatus\\\":\\\"FT\\\",\\\"seasonName\\\":\\\"UEFA Euro 2024\\\",\\\"surface\\\":null,\\\"groupLongName\\\":null,\\\"homeCompetitors\\\":{\\\"subCompetitors\\\":null,\\\"name\\\":\\\"Spain\\\",\\\"id\\\":\\\"sr:competitor:4698\\\",\\\"country\\\":\\\"Spain\\\",\\\"abbrev\\\":\\\"ESP\\\",\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"logo\\\":\\\"https://www.matchplay.com/static/competitor/4698.png\\\",\\\"homeJerseyBaseColor\\\":\\\"f94046\\\",\\\"homeJerseyNumberColor\\\":\\\"fddc30\\\",\\\"favorite\\\":0},\\\"awayCompetitors\\\":{\\\"subCompetitors\\\":null,\\\"name\\\":\\\"France\\\",\\\"id\\\":\\\"sr:competitor:4481\\\",\\\"country\\\":\\\"France\\\",\\\"abbrev\\\":\\\"FRA\\\",\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"logo\\\":\\\"https://www.matchplay.com/static/competitor/4481.png\\\",\\\"homeJerseyBaseColor\\\":\\\"1a55bd\\\",\\\"homeJerseyNumberColor\\\":\\\"ffffff\\\",\\\"favorite\\\":0},\\\"tournamentLogo\\\":null,\\\"sportLogo\\\":\\\"https://www.matchplay.com/static/notifications/sports_icon/Football%402x.png\\\",\\\"sport\\\":\\\"Football\\\"}}\"'"
+  }, {
+    "name" : "url",
+    "value" : "'https://test.matchplay.com/api/sports-query/match/detail/base/{eventid}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85faa846c03ad720.json",
+  "parameterValues" : [ "'{\"$.bizCode\": 10000, \"$.innerMsg\": \"success\"}'", "'{\r\n    \"Content-Type\": \"application/json\",\r\n    \"platform\": \"wap\",\r\n    \"Deviceid\": \"034a2171-d5bb-4ad0-a946-2db37c9203fb\",\r\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36\"\r\n}'", "3", "None", "'get'", "None", "'详细比赛信息'", "None", "'\"{\\\"bizCode\\\":10000,\\\"innerMsg\\\":\\\"success\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":{\\\"group\\\":null,\\\"showBettingInsights\\\":1,\\\"homeCompetitor\\\":\\\"Spain\\\",\\\"awayCompetitor\\\":\\\"France\\\",\\\"tips\\\":null,\\\"basketballCategory\\\":null,\\\"competitionRules\\\":2,\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"userSubscribed\\\":1,\\\"categoryLogo\\\":\\\"https://www.matchplay.com/static/manage-sport/98d8bb5d-bc6b-42e4-a7ce-b9f72aaabdbb.png\\\",\\\"category\\\":\\\"International\\\",\\\"categoryId\\\":\\\"sr:category:4\\\",\\\"tournamentId\\\":\\\"sr:tournament:1\\\",\\\"tournament\\\":\\\"UEFA Euro\\\",\\\"eventId\\\":\\\"sr:match:45843701\\\",\\\"status\\\":4,\\\"markets\\\":[],\\\"homeCompetitorLogo\\\":\\\"https://www.matchplay.com/static/competitor/4698.png\\\",\\\"awayCompetitorLogo\\\":\\\"https://www.matchplay.com/static/competitor/4481.png\\\",\\\"homeCompetitorId\\\":\\\"sr:competitor:4698\\\",\\\"awayCompetitorId\\\":\\\"sr:competitor:4481\\\",\\\"startTime\\\":1720551600000,\\\"homeResult\\\":1,\\\"awayResult\\\":2,\\\"ap\\\":null,\\\"aet\\\":null,\\\"homeCurrentPeriodScore\\\":null,\\\"awayCurrentPeriodScore\\\":null,\\\"homeScoreInCurrentSection\\\":null,\\\"awayScoreInCurrentSection\\\":null,\\\"currentServer\\\":null,\\\"homeScoreWholeMatch\\\":\\\"2\\\",\\\"awayScoreWholeMatch\\\":\\\"1\\\",\\\"halfScore\\\":\\\"2:1\\\",\\\"remainTimeOfCurrentPeriod\\\":null,\\\"remainTime\\\":null,\\\"eventTime\\\":null,\\\"matchStatus\\\":\\\"FT\\\",\\\"seasonName\\\":\\\"UEFA Euro 2024\\\",\\\"surface\\\":null,\\\"groupLongName\\\":null,\\\"homeCompetitors\\\":{\\\"subCompetitors\\\":null,\\\"name\\\":\\\"Spain\\\",\\\"id\\\":\\\"sr:competitor:4698\\\",\\\"country\\\":\\\"Spain\\\",\\\"abbrev\\\":\\\"ESP\\\",\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"logo\\\":\\\"https://www.matchplay.com/static/competitor/4698.png\\\",\\\"homeJerseyBaseColor\\\":\\\"f94046\\\",\\\"homeJerseyNumberColor\\\":\\\"fddc30\\\",\\\"favorite\\\":0},\\\"awayCompetitors\\\":{\\\"subCompetitors\\\":null,\\\"name\\\":\\\"France\\\",\\\"id\\\":\\\"sr:competitor:4481\\\",\\\"country\\\":\\\"France\\\",\\\"abbrev\\\":\\\"FRA\\\",\\\"sportId\\\":\\\"sr:sport:1\\\",\\\"logo\\\":\\\"https://www.matchplay.com/static/competitor/4481.png\\\",\\\"homeJerseyBaseColor\\\":\\\"1a55bd\\\",\\\"homeJerseyNumberColor\\\":\\\"ffffff\\\",\\\"favorite\\\":0},\\\"tournamentLogo\\\":null,\\\"sportLogo\\\":\\\"https://www.matchplay.com/static/notifications/sports_icon/Football%402x.png\\\",\\\"sport\\\":\\\"Football\\\"}}\"'", "'https://test.matchplay.com/api/sports-query/match/detail/base/{eventid}'" ]
+}

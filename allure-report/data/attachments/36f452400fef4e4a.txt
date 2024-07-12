@@ -1,0 +1,15 @@
+INFO     my_logger:test_match_list.py:35 开始测试比赛列表
+INFO     my_logger:request_runner.py:67 当前进入post测试用例中
+INFO     my_logger:replece_request.py:55 开始进入替换data,当前需要被替换的data是["ScoresTopBanner"]
+INFO     my_logger:replece_request.py:94 出现异常了，异常是'list' object has no attribute 'items'
+INFO     my_logger:BaseRequests.py:43 开始进入post请求, 当前请求url是https://test.matchplay.com/api/patron/spot/list, data是None, json是None, headers是{'Content-Type': 'application/json', 'platform': 'wap', 'Deviceid': '034a2171-d5bb-4ad0-a946-2db37c9203fb', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36'}
+INFO     my_logger:BaseRequests.py:46 当前请求成功，返回的http_code是 200, 返回结果是 {"bizCode":19999,"innerMsg":"Required request body is missing: public io.github.opensabe.base.vo.BaseRsp<java.util.List<com.sabegeek.patron.core.controller.frontend.promotion.vo.AdsVo>> com.sabegeek.patron.core.controller.frontend.promotion.SpotController.spot(java.util.List<java.lang.String>,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)","message":"error","data":null}
+INFO     my_logger:read_data.py:33 开始连接数据库
+INFO     my_logger:read_data.py:40 连接数据库成功
+INFO     my_logger:read_data.py:64 执行非查询操作 执行语句是 UPDATE requests SET response_body = '"{\"bizCode\":19999,\"innerMsg\":\"Required request body is missing: public io.github.opensabe.base.vo.BaseRsp<java.util.List<com.sabegeek.patron.core.controller.frontend.promotion.vo.AdsVo>> com.sabegeek.patron.core.controller.frontend.promotion.SpotController.spot(java.util.List<java.lang.String>,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)\",\"message\":\"error\",\"data\":null}"' where id = 1
+INFO     my_logger:json_assert.py:22 当前进入数据对比, 需要对比的json是{'bizCode': 19999, 'innerMsg': 'Required request body is missing: public io.github.opensabe.base.vo.BaseRsp<java.util.List<com.sabegeek.patron.core.controller.frontend.promotion.vo.AdsVo>> com.sabegeek.patron.core.controller.frontend.promotion.SpotController.spot(java.util.List<java.lang.String>,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)', 'message': 'error', 'data': None}, 对比的jsonpath 是 {"$.bizCode": 10000, "$.innerMsg": "success"}
+INFO     my_logger:json_assert.py:32 当前对比失败, 对比的语法是$.bizCode, 对比的值是19999, 用户需要对比的值是10000, 当前对比失败！
+INFO     my_logger:json_assert.py:32 当前对比失败, 对比的语法是$.innerMsg, 对比的值是Required request body is missing: public io.github.opensabe.base.vo.BaseRsp<java.util.List<com.sabegeek.patron.core.controller.frontend.promotion.vo.AdsVo>> com.sabegeek.patron.core.controller.frontend.promotion.SpotController.spot(java.util.List<java.lang.String>,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String), 用户需要对比的值是success, 当前对比失败！
+INFO     my_logger:json_assert.py:41 当前对比失败, 返回False
+INFO     my_logger:request_runner.py:85 测试存在失败
+INFO     my_logger:test_match_list.py:37 测试结果是 False

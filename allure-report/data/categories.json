@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False is not False",
+      "children" : [ {
+        "name" : "test_match_ads_list[1-https://test.matchplay.com/api/patron/spot/list-post-{\r\n    \"Content-Type\": \"application/json\",\r\n    \"platform\": \"wap\",\r\n    \"Deviceid\": \"034a2171-d5bb-4ad0-a946-2db37c9203fb\",\r\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36\"\r\n}-[\"ScoresTopBanner\"]-None-None-{\"$.bizCode\": 10000, \"$.innerMsg\": \"success\"}-\"{\\\"bizCode\\\":19999,\\\"innerMsg\\\":\\\"Required request body is missing: public io.github.opensabe.base.vo.BaseRsp<java.util.List<com.sabegeek.patron.core.controller.frontend.promotion.vo.AdsVo>> com.sabegeek.patron.core.controller.frontend.promotion.SpotController.spot(java.util.List<java.lang.String>,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)\\\",\\\"message\\\":\\\"error\\\",\\\"data\\\":null}\"-比赛列表广告位]",
+        "uid" : "53cd1b67cf2a7e7b",
+        "parentUid" : "e466ad2ac386f9c25caf8df0c9c874a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1720770788616,
+          "stop" : 1720770789840,
+          "duration" : 1224
+        },
+        "flaky" : false,
+        "parameters" : [ "'{\"$.bizCode\": 10000, \"$.innerMsg\": \"success\"}'", "'{\r\n    \"Content-Type\": \"application/json\",\r\n    \"platform\": \"wap\",\r\n    \"Deviceid\": \"034a2171-d5bb-4ad0-a946-2db37c9203fb\",\r\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36\"\r\n}'", "1", "None", "'post'", "None", "'比赛列表广告位'", "'[\"ScoresTopBanner\"]'", "'\"{\\\"bizCode\\\":19999,\\\"innerMsg\\\":\\\"Required request body is missing: public io.github.opensabe.base.vo.BaseRsp<java.util.List<com.sabegeek.patron.core.controller.frontend.promotion.vo.AdsVo>> com.sabegeek.patron.core.controller.frontend.promotion.SpotController.spot(java.util.List<java.lang.String>,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)\\\",\\\"message\\\":\\\"error\\\",\\\"data\\\":null}\"'", "'https://test.matchplay.com/api/patron/spot/list'" ]
+      } ],
+      "uid" : "e466ad2ac386f9c25caf8df0c9c874a7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

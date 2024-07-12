@@ -1,0 +1,6 @@
+pytest==5.3.2
+requests==2.25.1
+pandas==0.25.3
+jsonpath==0.82
+allure-pytest==2.8.12
+allure-python-commons==2.8.12

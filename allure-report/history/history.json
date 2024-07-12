@@ -1,0 +1,79 @@
+{
+  "8830eb563e7068698d1db191dbb72373" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31b5a8568f668c51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720770792480,
+        "stop" : 1720770793020,
+        "duration" : 540
+      }
+    } ]
+  },
+  "57e4c5653c255d8156ca472a238b585e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85faa846c03ad720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720770791283,
+        "stop" : 1720770792429,
+        "duration" : 1146
+      }
+    } ]
+  },
+  "bf930d8131ab8b4bf1e7cc9dc703cde3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53cd1b67cf2a7e7b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is not False",
+      "time" : {
+        "start" : 1720770788616,
+        "stop" : 1720770789840,
+        "duration" : 1224
+      }
+    } ]
+  },
+  "790ba528aed54d37b62f0b844115bf1b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53134d549412242f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720770790068,
+        "stop" : 1720770791248,
+        "duration" : 1180
+      }
+    } ]
+  }
+}
