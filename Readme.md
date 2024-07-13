@@ -4,30 +4,30 @@
 
 ## 详细介绍
 
-    框架图：<br>
-      —接口自动化测试<br>
-         --allure_report<br>
-         --allure-results<br>
-         --BaseRequests<br>
-           ---__init__.py<br>
-           ---BaseRequests.py<br>
-         --Data<br>
-           ---data.db<br>
-           ---data.xlsx<br>
-           ---sqlite 可视化安装包<br>
-           ---read_data.py<br>
-         --logs<br>
-         --RequestObject<br>
-           ---request_runner.py<br>
-         --TestCases<br>
-           -- 测试用例<br>
-         --Utils<br>
-           --json_assert.py<br>
-           --logger.py<br>
-           --replace_requests.py<br>
-           --variable_handler.py<br>
-          --man.py<br>
-          --requirements.txt<br>
+    框架图：
+      —接口自动化测试
+         --allure_report
+         --allure-results
+         --BaseRequests
+           ---__init__.py
+           ---BaseRequests.py
+         --Data
+           ---data.db
+           ---data.xlsx
+           ---sqlite 可视化安装包
+           ---read_data.py
+         --logs
+         --RequestObject
+           ---request_runner.py
+         --TestCases
+           -- 测试用例
+         --Utils
+           --json_assert.py
+           --logger.py
+           --replace_requests.py
+           --variable_handler.py
+          --man.py
+          --requirements.txt
          
            
 
