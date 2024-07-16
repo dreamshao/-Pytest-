@@ -30,10 +30,11 @@ class Request_Runner():
         :return: 失败 False 成功 dict
         """
         logger.info("当前进入get测试用例中")
-        if replace_type == 1:
-            self.url = Replace_Request(url=self.url).repalce_request_url()
-        else:
-            self.data = Replace_Request(data=self.data).replace_request_data()
+        if replace_type is not None:
+            if replace_type == 1:
+                self.url = Replace_Request(url=self.url).repalce_request_url()
+            else:
+                self.data = Replace_Request(data=self.data).replace_request_data()
         result = BaseRequests().get_request(url=self.url, headers=json.loads(self.headers), params=self.params)
         if result:
             result_json = json.loads(result)
@@ -41,7 +42,7 @@ class Request_Runner():
                                               sql_command="UPDATE requests SET response_body = '{response_body}' where id = {id}".format(
                                                   response_body=json.dumps(result), id=id),
                                               query_sql_type=False)
-            if self.assert_info is not None:
+            if self.assert_info is not None or self.assert_info != " ":
                 result = Assert_Json().assert_info(result_json, self.assert_info)
                 if result:
                     logger.info("测试全部通过")
@@ -65,10 +66,11 @@ class Request_Runner():
         :return: 失败 False 成功 dict
         """
         logger.info("当前进入post测试用例中")
-        if replace_type == 1:
-            self.url = Replace_Request(url=self.url).repalce_request_url()
-        else:
-            self.data = Replace_Request(data=self.data).replace_request_data()
+        if replace_type is not None:
+            if replace_type == 1:
+                self.url = Replace_Request(url=self.url).repalce_request_url()
+            else:
+                self.data = Replace_Request(data=self.data).replace_request_data()
         result = BaseRequests().post_request(url=self.url, headers=json.loads(self.headers), data=self.data)
         if result:
             result_json = json.loads(result)
@@ -76,7 +78,7 @@ class Request_Runner():
                                               sql_command="UPDATE requests SET response_body = '{response_body}' where id = {id}".format(
                                                   response_body=json.dumps(result), id=id),
                                               query_sql_type=False)
-            if self.assert_info is not None:
+            if self.assert_info is not None or self.assert_info != " ":
                 result = Assert_Json().assert_info(result_json, self.assert_info)
                 if result:
                     logger.info("测试全部通过")
@@ -100,10 +102,11 @@ class Request_Runner():
         :return: 失败 False 成功 dict
         """
         logger.info("当前进入put测试用例中")
-        if replace_type == 1:
-            self.url = Replace_Request(url=self.url).repalce_request_url()
-        else:
-            self.data = Replace_Request(data=self.data).replace_request_data()
+        if replace_type is not None:
+            if replace_type == 1:
+                self.url = Replace_Request(url=self.url).repalce_request_url()
+            else:
+                self.data = Replace_Request(data=self.data).replace_request_data()
         result = BaseRequests().put_request(url=self.url, headers=json.loads(self.headers), data=self.data)
         if result:
             result_json = json.loads(result)
@@ -111,7 +114,7 @@ class Request_Runner():
                                               sql_command="UPDATE requests SET response_body = '{response_body}' where id = {id}".format(
                                                   response_body=json.dumps(result), id=id),
                                               query_sql_type=False)
-            if self.assert_info is not None:
+            if self.assert_info is not None or self.assert_info != " ":
                 result = Assert_Json().assert_info(result_json, self.assert_info)
                 if result:
                     logger.info("测试全部通过")
@@ -135,10 +138,11 @@ class Request_Runner():
         :return: 失败 False 成功 dict
         """
         logger.info("当前进入delete测试用例中")
-        if replace_type == 1:
-            self.url = Replace_Request(url=self.url).repalce_request_url()
-        else:
-            self.data = Replace_Request(data=self.data).replace_request_data()
+        if replace_type is not None:
+            if replace_type == 1:
+                self.url = Replace_Request(url=self.url).repalce_request_url()
+            else:
+                self.data = Replace_Request(data=self.data).replace_request_data()
         result = BaseRequests().delete_request(url=self.url, headers=json.loads(self.headers), data=self.data)
         if result:
             result_json = json.loads(result)
@@ -146,7 +150,7 @@ class Request_Runner():
                                               sql_command="UPDATE requests SET response_body = '{response_body}' where id = {id}".format(
                                                   response_body=json.dumps(result), id=id),
                                               query_sql_type=False)
-            if self.assert_info is not None:
+            if self.assert_info is not None or self.assert_info != " ":
                 result = Assert_Json().assert_info(result_json, self.assert_info)
                 if result:
                     logger.info("测试全部通过")
