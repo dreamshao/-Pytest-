@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68b28d31-af67-4494-8a35-7b33dd357b65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseRequests/BaseRequests.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseRequests/BaseRequests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RequestObject/request_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/RequestObject/request_runner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,8 +188,16 @@
       <workItem from="1720752892095" duration="3517000" />
       <workItem from="1720764248535" duration="8231000" />
       <workItem from="1720773088539" duration="984000" />
-      <workItem from="1721129045201" duration="481000" />
+      <workItem from="1721129045201" duration="1289000" />
     </task>
+    <task id="LOCAL-00001" summary="新增init.py 增加fastapi框架接口便于添加数据">
+      <created>1721129666856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721129666856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +213,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增init.py 增加fastapi框架接口便于添加数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增init.py 增加fastapi框架接口便于添加数据" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$test_match_list.coverage" NAME="test_match_list Coverage Results" MODIFIED="1720683962209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
